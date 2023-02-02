@@ -17,7 +17,7 @@
     "commands": [
       {
         "command": "todo-to-linear.helloWorld",
-        "title": "Actiate Todo"
+        "title": "Activate Todo"
       }
     ]
   },
