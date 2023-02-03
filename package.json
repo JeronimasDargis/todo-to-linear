@@ -14,6 +14,21 @@
   ],
   "main": "./dist/extension.js",
   "contributes": {
+    "configuration": {
+      "title": "todo",
+      "properties": {
+        "todo.projectSlug": {
+          "type": ["string", "null"],
+          "default": null,
+          "description": "Used to create todo task to required project."
+        },
+        "todo.linearApi": {
+          "type": ["string", "null"],
+          "default": null,
+          "description": "Specifies the linear API key which will be used to communicate with linear SDK."
+        }
+      }
+    },
     "commands": [
       {
         "command": "todo-to-linear.helloWorld",
